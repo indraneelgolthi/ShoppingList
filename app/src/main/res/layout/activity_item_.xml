@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:paddingTop="8dp"
+    android:paddingTop="16dp"
     android:paddingLeft="8dp"
     android:paddingRight="8dp"
     tools:context="thatbiriyaniguy.shoppinglist.Item_Activity">
@@ -18,7 +18,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Item Name"
+            android:hint="@string/item_name"
             android:id="@+id/input_item_name" />
     </android.support.design.widget.TextInputLayout>
 
@@ -29,7 +29,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Item Quantity"
+            android:hint="@string/item_quantity"
             android:id="@+id/input_item_quantity" />
     </android.support.design.widget.TextInputLayout>
 
